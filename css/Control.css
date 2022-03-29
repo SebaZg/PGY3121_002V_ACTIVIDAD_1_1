@@ -1,0 +1,63 @@
+body{
+    display: flex;
+    flex-direction: row;
+    font-family: Arial, Helvetica;
+    background-color:rgb(3, 3, 3);
+    color:aliceblue;
+}
+
+
+.contenedor-colores{
+    display:flex;
+    flex-direction:column;
+    height: 100vh;
+    width: 80vw;
+    margin-top: -1rem;
+}
+.numero1{
+    background-color: coral;
+    height: 30vh;
+}
+.numero2{
+    background-color: aqua;
+    height: 30vh;
+}
+
+.numero3{
+    background-color: crimson;
+    height: 30vh;
+}
+.numero4{
+    background-color: chartreuse;
+    height: 30vh;
+}
+
+.barra-navegacion{
+    display: flex;
+    flex-direction: column;
+    list-style:none;
+    padding: 0;
+    background-color: rgb(13, 14, 13);
+    width: 20vw;
+    height: 100vh;
+    max-width: 1000px;
+    margin-top: -1rem;
+    margin-left: -1rem;
+    margin-bottom: -2rem;
+}
+.navegacion li a{
+    text-decoration: none;
+    color: rgb(240, 242, 243);
+    padding: 30px;
+    display:block;
+}
+
+.navegacion li{
+    display:inline-block;
+    text-align:center;
+}
+
+.navegacion li a:hover{
+    background-color: rgb(12, 12, 12);
+}
+
