@@ -37,7 +37,7 @@ body{
     flex-direction: column;
     list-style:none;
     padding: 0;
-    background-color: rgb(13, 14, 13);
+    background-color: rgb(5, 5, 5);
     width: 20vw;
     height: 100vh;
     max-width: 1000px;
@@ -47,7 +47,7 @@ body{
 }
 .navegacion li a{
     text-decoration: none;
-    color: rgb(240, 242, 243);
+    color: rgb(209, 211, 212);
     padding: 30px;
     display:block;
 }
@@ -58,6 +58,8 @@ body{
 }
 
 .navegacion li a:hover{
-    background-color: rgb(12, 12, 12);
+    background-color: rgb(5, 5, 5);
+    font-weight:bold;
+    
 }
 
